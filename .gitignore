@@ -28,3 +28,5 @@ doc/api/
 
 
 part/__pycache__
+part/captcha.jpg
+part/captcha.png

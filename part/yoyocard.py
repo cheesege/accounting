@@ -10,7 +10,6 @@ from PIL import Image
 driver  = webdriver.Chrome()
 driver.get("https://ezweb.easycard.com.tw/search/CardSearch.php")
 driver.save_screenshot("part\captcha.jpg")
-time.sleep(1)
 pic = driver.find_element(By.ID, "imgcode")
 #print(pic.location)
 #print(pic.size)
